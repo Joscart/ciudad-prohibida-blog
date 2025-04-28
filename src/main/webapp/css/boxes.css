@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.content-box {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	min-height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.main-content {
+    flex: 8 0 auto;
+    min-width: 300px;
+    flex-flow: column nowrap;
+    overflow: visible;
+    margin: 0;
+}
+
+.sidebar {
+	flex: 2 0 auto;
+	min-width: 30vw;
+    flex-flow: column nowrap;
+    overflow: auto;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.box > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.page-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.website-name {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tools {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-menu > ul,.tools > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu > ul > li,.tools > ul > li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.text-btn {
+	display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: rgb(128, 128, 128);
+    border-radius: 0.5rem;
+}
+
+.text-btn:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
