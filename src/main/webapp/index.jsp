@@ -28,6 +28,16 @@
 					src="https://upload.wikimedia.org/wikipedia/commons/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg"
 					alt="Ciudad Prohibida" />
 			</div>
+			<div id="video" class="box">
+				<h2>Video Documental</h2>
+				<p>La Ciudad Prohibida: La Gran Ciudadela de los Emperadores de
+					China - Otras Maravillas del Mundo - Mira la Historia</p>
+				<iframe
+					src="https://www.youtube-nocookie.com/embed/NSxJL1mEHAA?si=NrYTGYMuCNvRkC2I"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
 			<div id="ubicacion" class="box">
 				<h2>Ubicación</h2>
 				<p>La Ciudad Prohibida se encuentra en el centro de Beijing,
