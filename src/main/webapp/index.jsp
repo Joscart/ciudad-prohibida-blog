@@ -4,95 +4,120 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<!-- Website template for blogs -->
-<title>Blog template</title>
+<title>La Ciudad Prohibida</title>
 <link rel="stylesheet" type="text/css" href="css/boxes.css">
 <link rel="stylesheet" type="text/css" href="css/spacing.css">
 <link rel="stylesheet" type="text/css" href="css/colors.css">
 </head>
 <body>
 	<header class="main-header">
-		<div class="icons"></div>
 		<div class="website-name">
-			<h1>My Blog</h1>
-			<p>Welcome to my personal blog</p>
+			<h1>La Ciudad Prohibida</h1>
+			<p>Blog personal sobre la Ciudad Prohibida en Beijing</p>
 		</div>
-		<div class="tools"></div>
 	</header>
-	<nav class="page-nav">
-		<div class="nav-menu">
-			<ul>
-				<li><a class="text-btn" href="#">Home</a></li>
-				<li><a class="text-btn" href="#about">About</a></li>
-				<li><a class="text-btn" href="#contact">Contact</a></li>
-			</ul>
-		</div>
-		<div class="tools">
-			<ul>
-				<li><a class="text-btn" href="#">back to start</a></li>
-			</ul>
-		</div>
-	</nav>
+
 	<div class="content-box">
 		<div class="main-content">
-			<div id="about" class="box">
-				<h2>About Me</h2>
-				<p>Hi! I'm a web developer and I love coding. This is my
-					personal blog where I share my thoughts and experiences.</p>
+			<div id="informacion" class="box">
+				<h2>Información</h2>
+				<p>La Ciudad Prohibida es un complejo palaciego en el centro de
+					Beijing, que fue la residencia de los emperadores de China durante
+					más de 500 años. Es un símbolo de la historia y cultura china.</p>
+				<img
+					src="https://upload.wikimedia.org/wikipedia/commons/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg"
+					alt="Ciudad Prohibida" />
 			</div>
-			<div class="main-box">
-				<h2 class="title">Blog</h2>
-				<p>Welcome to my blog! Here you can find my latest posts and
-					updates.</p>
-				<div class="box">
-					<h3 class="title">Example post</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Suspendisse faucibus fringilla risus at luctus. Donec non mi nec
-						magna elementum tempus. Phasellus vel facilisis massa. Aliquam sed
-						tempor arcu, blandit pulvinar lectus. Class aptent taciti sociosqu
-						ad litora torquent per conubia nostra, per inceptos himenaeos.
-						Maecenas ut sapien feugiat, malesuada purus at, consectetur
-						tortor. Vivamus fringilla bibendum erat vel congue. Maecenas
-						placerat ac magna eu sagittis.</p>
-					<p>Donec pharetra tortor nec congue vestibulum. Ut tempor dui
-						ut odio pellentesque egestas. Maecenas laoreet rhoncus dolor id
-						aliquet. Nulla sed risus ligula. Nulla tincidunt finibus eleifend.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-						a arcu tristique nulla viverra porta ac a arcu. Fusce blandit,
-						metus id congue ultricies, neque quam lacinia turpis, sit amet
-						auctor nulla dui pharetra orci. Class aptent taciti sociosqu ad
-						litora torquent per conubia nostra, per inceptos himenaeos.
-						Praesent congue dui tortor, nec condimentum nunc dapibus ut.</p>
-				</div>
-				<div class="box">
-					<h3 class="title">Example image post</h3>
-					<img
-						src="https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1402/03/18/1402031814224368127735594.jpg"
-						alt="Example image" />
+			<div id="ubicacion" class="box">
+				<h2>Ubicación</h2>
+				<p>La Ciudad Prohibida se encuentra en el centro de Beijing,
+					justo al norte de la Plaza de Tiananmen.</p>
+				<iframe id="mapa"
+					src="https://www.google.com/maps/d/embed?mid=1oDSbKbbMwiA3EM8n4YqXAYoBIWvPVw0&ehbc=2E312F&noprof=1"></iframe>
+			</div>
+			<div id="ventajas" class="box">
+				<h2>Ventajas y Desventajas</h2>
+				<table>
+					<tr>
+						<th>Ventajas</th>
+						<th>Desventajas</th>
+					</tr>
+					<tr>
+						<td>Rica historia cultural</td>
+						<td>Multitud de turistas</td>
+					</tr>
+					<tr>
+						<td>Arquitectura impresionante</td>
+						<td>Costos de entrada elevados</td>
+					</tr>
+					<tr>
+						<td>Acceso a exposiciones históricas</td>
+						<td>Clima extremo en verano/invierno</td>
+					</tr>
+				</table>
+			</div>
+			<div id="referencias" class="box">
+				<h2>Referencias</h2>
+				<div class="reference-list">
+					<div class="reference-item">
+						<h3>Wikipedia - Ciudad Prohibida</h3>
+						<p>Una enciclopedia en línea que ofrece información detallada
+							sobre la Ciudad Prohibida.</p>
+						<a href="https://es.wikipedia.org/wiki/Ciudad_Prohibida"
+							class="reference-link">Visitar</a>
+					</div>
+					<div class="reference-item">
+						<h3>China Highlights - Forbidden City</h3>
+						<p>Guía de viaje que proporciona información sobre la Ciudad
+							Prohibida y sus atracciones.</p>
+						<a
+							href="https://www.chinahighlights.com/beijing/forbidden-city.htm"
+							class="reference-link">Visitar</a>
+					</div>
+					<div class="reference-item">
+						<h3>Travel China Guide - Forbidden City</h3>
+						<p>Un recurso útil para los viajeros que desean explorar la
+							Ciudad Prohibida.</p>
+						<a
+							href="https://www.travelchinaguide.com/attraction/beijing/forbidden-city.htm"
+							class="reference-link">Visitar</a>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="sidebar">
 			<div class="box">
-				<h2>Important Posts</h2>
-				<ul>
-					<li><a href="#">Post 1</a></li>
-					<li><a href="#">Post 2</a></li>
-					<li><a href="#">Post 3</a></li>
-				</ul>
+				<h2>Sobre mí</h2>
+				<p>Soy un estudiante de la carrera de ciencias de la computacion
+					que le apasiona la cultura y busca preservarla.</p>
+				<img src="images/personal_picture.jpg" alt="Foto del blogger" />
 			</div>
-			<div id="contact" class="box">
-				<h2>Contact me</h2>
-				<ul>
-					<li><a href="#">link contact 1</a></li>
-					<li><a href="#">link contact 2</a></li>
-					<li><a href="#">link contact 3</a></li>
-				</ul>
+			<div class="box">
+				<h2>Contacto</h2>
+				<p>
+					Si deseas contactarme, puedes enviarme un correo a: <a
+						href="mailto:jguallasaminc@est.ups.edu.ec">jguallasaminc@est.ups.edu.ec</a>
+				</p>
 			</div>
 		</div>
 	</div>
+
+	<nav class="navbar">
+		<ul>
+			<li><a class="text-btn" href="#informacion">Información</a></li>
+			<li><a class="text-btn" href="#ubicacion">Ubicación</a></li>
+			<li><a class="text-btn" href="#ventajas">Ventajas y
+					Desventajas</a></li>
+			<li><a class="text-btn" href="#referencias">Referencias</a></li>
+		</ul>
+		<ul>
+			<li><a class="text-btn" href="#">^</a></li>
+		</ul>
+	</nav>
+
 	<footer class="main-footer">
-		<p>&copy; 2025 My Blog. All rights reserved.</p>
+		<p>&copy; 2025 Blog sobre la Ciudad Prohibida. Todos los derechos
+			reservados.</p>
 	</footer>
 </body>
 </html>
